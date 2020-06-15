@@ -22,7 +22,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -65,7 +70,8 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 16px 0;
-  background: #213b52;
+  /* background: #213b52; */
+  background: #cacaca;
 }
 
 #header .logo h1 {
@@ -79,12 +85,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#header .logo h1 a, #header .logo h1 a:hover {
+#header .logo h1 a,
+#header .logo h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
 
-#header .logo h1 a span, #header .logo h1 a:hover span {
+#header .logo h1 a span,
+#header .logo h1 a:hover span {
   color: #fdc134;
 }
 
@@ -98,7 +106,8 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
-.nav-menu, .nav-menu * {
+.nav-menu,
+.nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -117,15 +126,19 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #adc7de;
+  /* color: #adc7de; */
+  color: #213b52;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #fff;
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
+  /* color: #fff; */
+  color: #000;
   text-decoration: none;
 }
 
@@ -133,9 +146,10 @@ h1, h2, h3, h4, h5, h6 {
   background: #213b52;
   color: #fff;
   border-radius: 50px;
-  margin: 2px 0 0 15px;
+  /* margin: 2px 0 0 15px; */
+  margin: 6px 0 0 15px;
   padding: 4px 25px 6px 25px;
-  border: 2px solid #fdc134;
+  /* border: 2px solid #fdc134; */
 }
 
 .nav-menu .get-started a:hover {
@@ -176,7 +190,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #3e6f9b;
 }
 
-.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+.nav-menu .drop-down ul a:hover,
+.nav-menu .drop-down ul .active > a,
+.nav-menu .drop-down ul li:hover > a {
   color: #fdc134;
 }
 
@@ -272,7 +288,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+.mobile-nav a:hover,
+.mobile-nav .active > a,
+.mobile-nav li:hover > a {
   color: #fdc134;
   text-decoration: none;
 }
@@ -348,8 +366,11 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   padding: 0 0 0 0;
-  background: #213b52;
-  background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%);
+  /* background: #213b52; */
+  /* height: 40rem; */
+  /* background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%); */
+  position: absolute;
+  bottom: 0;
 }
 
 #hero h1 {
@@ -445,7 +466,7 @@ section {
 }
 
 .section-title h2::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 120px;
@@ -456,7 +477,7 @@ section {
 }
 
 .section-title h2::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 40px;
@@ -694,7 +715,8 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #fdc134;
 }
 
@@ -1086,13 +1108,15 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
+.contact .php-email-form input::focus,
+.contact .php-email-form textarea::focus {
   background-color: #fdc134;
 }
 
@@ -1265,7 +1289,8 @@ section {
 }
 
 @media (max-width: 768px) {
-  #footer .copyright, #footer .credits {
+  #footer .copyright,
+  #footer .credits {
     padding: 5px;
     float: none;
     text-align: ceneter;
